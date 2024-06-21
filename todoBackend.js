@@ -100,5 +100,5 @@
     res.status(404).send("Route not found");
   })
   app.listen(port ,function(){
-    console.log(`listening on ${port}`);
+    console.log(`listening on ${port} port is already running on this   port`);
   });
